@@ -1,6 +1,7 @@
-# FPGA_GPU_Project
+# EC601 Project - FPGA vs. GPU for Machine Learning
 ## Product Mission
 ## Minimum Viable Product (MVP)
-## Tests
-## Results
+## Sprint 1
+### Tests
+### Results
 ## Future Plans
