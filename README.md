@@ -105,7 +105,7 @@ Framework
 
 ![F1 Instance How It Works](images/test_hello_world1.PNG)
 
-**Figure 10: AWS CLI - Testing Hello, World!**
+**Figure 11: AWS CLI - Testing Hello, World!**
 
 **Issues**
 10/18/2020 - FPGA instances no longer appear as an option on AWS EC2 F1 Instances
