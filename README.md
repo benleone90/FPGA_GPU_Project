@@ -2,7 +2,7 @@
 
 ## Product Mission
 
-To Compare and benchmark FPGA vs GPU Execution speed on cloud platforms
+To compare and benchmark FPGA vs GPU execution speed on cloud platforms especially for machine learning purposes
 
 ## Minimum Viable Product (MVP)
 
@@ -18,7 +18,7 @@ The minimum viable product is code and test results
 Framework
 
 - Tensorflow: open source, developed and used by Google, wide range of tutorials, documentation and support
-- Platform=Amazon Web Services.....familiarity, support.
+- Platform - Amazon Web Services for it's familiarity and support
 - EC2 F1 instances
 - Sagemaker
 - To investigate BU Compute platform
@@ -46,18 +46,20 @@ Framework
 - A developer wants to verify the performance of a particular cloud computing service that supports tensorflow frameworks
 - A student new to machine learning wants to use FPGAs but is unfamiliar with HDL and needs to use high-level languages
 
-**Evaluating Technologies for Machine Learning**
+### Evaluating Technologies for Machine Learning
 
 - AWS
+
   - F1 - FPGA instances in the cloud
+  - Hello world examples
+  - Demonstrate an example application written in C that is synthesized to RTL (Verilog)
+
 - Sagemaker - build, create, and deploy ML models in the cloud
-  Hello world examples
-  Demonstrate an example application written in C that is synthesized to RTL (Verilog)
-  TensorFlow
-  Keras (was separate but now fully integrated)
-  ML5.js - aims to make machine learning approachable for a broad audience
-  PyTorch - computer vision and NLP library developed by Facebook AI Research (FAIR) Lab
-  Others that are relevant
+- TensorFlow
+- Keras (was separate but now fully integrated)
+- ML5.js - aims to make machine learning approachable for a broad audience
+- PyTorch - computer vision and NLP library developed by Facebook AI Research (FAIR) Lab
+- Others that are relevant
 
 ## Sprint 2
 
@@ -108,6 +110,7 @@ Framework
 **Figure 11: AWS CLI - Testing Hello, World!**
 
 **Issues**
+
 10/18/2020 - FPGA instances no longer appear as an option on AWS EC2 F1 Instances
 
 ### Phase 2 - Create a machine learning neuron
@@ -116,6 +119,9 @@ Create a machine learning neuron that demonstrates how data is taken in, maninpu
 _See phase2_neuron.py_
 
 ## Sprint 3
+
+### Goal
+Deploy a similar machine learning algorithm on FPGA and GPU platforms. Referencing [freeCodeCamp - How to Benchmark Machine Learning Execution Speed](https://www.freecodecamp.org/news/benchmarking-machine-learning-execution-speeds/) to find a best practice on how to get these benchmarks running.
 
 ## Sprint 4
 
