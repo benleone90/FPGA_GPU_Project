@@ -65,7 +65,7 @@ Framework
 
 ### Phase 1 - AWS EC2 F1 'Hello, World!' Example
 
-![F1 Instance How It Works](images/f1-Instance-How-it-Works-flowchart.jpg)
+![F1 Instance How It Works](Phase_2/images/f1-Instance-How-it-Works-flowchart.jpg)
 
 **Figure 1: AWS EC2 F1 Flow Chart - How It Works**
 
@@ -121,6 +121,7 @@ _See phase2_neuron.py_
 ## Sprint 3
 
 ### Goal
+
 Deploy a similar machine learning algorithm on FPGA and GPU platforms. Referencing [freeCodeCamp - How to Benchmark Machine Learning Execution Speed](https://www.freecodecamp.org/news/benchmarking-machine-learning-execution-speeds/) to find a best practice on how to get these benchmarks running.
 
 ### Phase 1 - Create Neural Network Neuron in C
