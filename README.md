@@ -69,43 +69,43 @@ Framework
 
 **Figure 1: AWS EC2 F1 Flow Chart - How It Works**
 
-![F1 Instance How It Works](images/choose_image.PNG)
+![F1 Instance How It Works](Phase_2/images/choose_image.PNG)
 
 **Figure 2: AWS Console - Selecting an Amazon Machine Image (AMI)**
 
-![F1 Instance How It Works](images/launch_instance.PNG)
+![F1 Instance How It Works](Phase_2/images/launch_instance.PNG)
 
 **Figure 3: AWS Console - Launching AMI Image**
 
-![F1 Instance How It Works](images/connect_to_instance.PNG)
+![F1 Instance How It Works](Phase_2/images/connect_to_instance.PNG)
 
 **Figure 4: Connecting to the F1 Instance via SSH**
 
-![F1 Instance How It Works](images/S3_make_bucket.PNG)
+![F1 Instance How It Works](Phase_2/images/S3_make_bucket.PNG)
 
 **Figure 5: AWS - Create S3 bucket to hold log and synthesis files**
 
-![F1 Instance How It Works](images/synthesis_of_CL.PNG)
+![F1 Instance How It Works](Phase_2/images/synthesis_of_CL.PNG)
 
 **Figure 6: AWS CLI - Successful synthesis of combinational logic**
 
-![F1 Instance How It Works](images/create_fpga_image.PNG)
+![F1 Instance How It Works](Phase_2/images/create_fpga_image.PNG)
 
 **Figure 7: AWS CLI - FPGA Image is successfully created**
 
-![F1 Instance How It Works](images/create_AFI.PNG)
+![F1 Instance How It Works](Phase_2/images/create_AFI.PNG)
 
 **Figure 8: AWS CLI - Create AFI for synthesis on FPGA**
 
-![F1 Instance How It Works](images/connect_to_instance.PNG)
+![F1 Instance How It Works](Phase_2/images/connect_to_instance.PNG)
 
 **Figure 9: AWS - Connect to FPGA Instance**
 
-![F1 Instance How It Works](images/clear_load_verify.PNG)
+![F1 Instance How It Works](Phase_2/images/clear_load_verify.PNG)
 
 **Figure 10: AWS CLI - Clear, load, and verify FPGA**
 
-![F1 Instance How It Works](images/test_hello_world1.PNG)
+![F1 Instance How It Works](Phase_2/images/test_hello_world1.PNG)
 
 **Figure 11: AWS CLI - Testing Hello, World!**
 
