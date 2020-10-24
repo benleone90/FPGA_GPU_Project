@@ -111,7 +111,7 @@ Framework
 
 **Issues**
 
-10/18/2020 - FPGA instances no longer appear as an option on AWS EC2 F1 Instances
+~~10/18/2020 - FPGA instances no longer appear as an option on AWS EC2 F1 Instances~~
 
 ### Phase 2 - Create a machine learning neuron
 
@@ -122,6 +122,8 @@ _See phase2_neuron.py_
 
 ### Goal
 Deploy a similar machine learning algorithm on FPGA and GPU platforms. Referencing [freeCodeCamp - How to Benchmark Machine Learning Execution Speed](https://www.freecodecamp.org/news/benchmarking-machine-learning-execution-speeds/) to find a best practice on how to get these benchmarks running.
+
+### Phase 1 - Create Neural Network Neuron in C
 
 ## Sprint 4
 
