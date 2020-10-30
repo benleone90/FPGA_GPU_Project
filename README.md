@@ -101,7 +101,7 @@ Framework
 
 **Figure 9: AWS - Connect to FPGA Instance**
 
-![F1 Instance How It Works](Sprint_2images/clear_load_verify.PNG)
+![F1 Instance How It Works](Sprint_2/images/clear_load_verify.PNG)
 
 **Figure 10: AWS CLI - Clear, load, and verify FPGA**
 

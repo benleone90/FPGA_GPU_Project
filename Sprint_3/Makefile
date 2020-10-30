@@ -1,5 +1,5 @@
-neuron:
-	g++ neuron.c -o neuron
+neuron: neuron.c
+	g++ neuron.c -o neuron.o
 
 clean:
-	rm neuron
+	rm *.o
