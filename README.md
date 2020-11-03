@@ -2,13 +2,13 @@
 
 ## Product Mission
 
-To compare and benchmark FPGA vs GPU execution speed on cloud platforms especially for machine learning purposes
+To compare and benchmark FPGA vs GPU execution speed on cloud platforms especially for machine learning purposes. Additionally, try to evalute if FPGAs will overtake GPUs for specific machine learning tasks.
 
 ## Minimum Viable Product (MVP)
 
-The minimum viable product is code and test results
+The minimum viable product is a simple machine learning algorithm that can be executed on both FPGAs and GPUs and to compare and evaluate their execution time, performance and power consumption.
 
-## User story
+## User Stories
 
 - A machine learning developer wants to develop an application that requires a fast execution speed and needs to decide between FPGA and GPU.
 - A machine learning developer wants to verify the performance of a particular cloud computing service that supports tensorflow frameworks
@@ -21,7 +21,7 @@ Framework
 - Platform - Amazon Web Services for it's familiarity and support
 - EC2 F1 instances
 - Sagemaker
-- To investigate BU Compute platform
+- Boston University Shared Compute Cluster (SCC)
 
 ## Sprint 1
 
@@ -116,7 +116,7 @@ Framework
 ### Phase 2 - Create a machine learning neuron
 
 Create a machine learning neuron that demonstrates how data is taken in, maninpulated and biased and output for future manipulation or output to the user.
-_See phase2_neuron.py_
+_See [phase2_neuron.py](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_2/phase2_neuron.py)_
 
 ## Sprint 3
 
@@ -125,6 +125,7 @@ _See phase2_neuron.py_
 Deploy a similar machine learning algorithm on FPGA and GPU platforms. Referencing [freeCodeCamp - How to Benchmark Machine Learning Execution Speed](https://www.freecodecamp.org/news/benchmarking-machine-learning-execution-speeds/) to find a best practice on how to get these benchmarks running.
 
 ### Phase 1 - Create Neural Network Neuron in C
+See [neuron.c](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_3/neuron.c) which contains an interpretation of the Python code used in Sprint 2 into C.
 
 ## Sprint 4
 
