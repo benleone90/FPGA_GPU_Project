@@ -125,7 +125,26 @@ _See [phase2_neuron.py](https://github.com/benleone90/FPGA_GPU_Project/blob/main
 Deploy a similar machine learning algorithm on FPGA and GPU platforms. Referencing [freeCodeCamp - How to Benchmark Machine Learning Execution Speed](https://www.freecodecamp.org/news/benchmarking-machine-learning-execution-speeds/) to find a best practice on how to get these benchmarks running.
 
 ### Phase 1 - Create Neural Network Neuron in C
+
 See [neuron.c](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_3/neuron.c) which contains an interpretation of the Python code used in Sprint 2 into C.
+
+### Phase 2 - Implement C to HDL Example
+
+![F1 Instance](Sprint_3/images/screen1.png)
+
+**Figure 1: Remote into AWS F1 Instance**
+
+![Launching Vivado](Sprint_3/images/screen2.png)
+
+**Figure 2: Lauching Vivado GUI - Failure to lauch GUI due to no DISPLAY env variable being set**
+
+![Building DCP from Custom Logic](Sprint_3/images/screen3.png)
+
+**Figure 3: Building Design Check Point (DCP) from Custom Logic**
+
+**Issues**
+
+11/3/2020 - Vivado GUI giving errors to not launch because no DISPLAY env variable is set
 
 ## Sprint 4
 
