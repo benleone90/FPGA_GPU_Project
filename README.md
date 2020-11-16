@@ -23,7 +23,7 @@ Framework
 - Sagemaker
 - Boston University Shared Compute Cluster (SCC)
 
-## Sprint 1
+## [Sprint 1](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_1/FPGA%20vs.%20GPU%20-%20Sprint%201.pdf)
 
 ### Product Mission
 
