@@ -5,26 +5,18 @@ Header file for neuron for a neural network
 #define NEURON_H
 
 #define WEIGHTS 2
+#define SAMPLES 5
 
 float sigmoid(float x);
 
-float dot_product(int *u, int *v)
-{
-    float sum = 0;
-    int n = sizeof(u) / sizeof(u[0]);
-    for (size_t i = 0; i < n; i++)
-    {
-        sum += u[i] * v[i];
-    }
-    return sum;
-}
+float dot_product(int *u, int *v);
 
 float feedforward(int *neuron, int *input, int bias);
 
-typedef struct
+struct neuron
 {
-    int weights[2];
+    int weights[WEIGHTS];
     int bias;
-} neuron;
+};
 
 #endif
