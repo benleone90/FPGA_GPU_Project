@@ -4,8 +4,10 @@ Header file for neuron for a neural network
 #ifndef NEURON_H
 #define NEURON_H
 
-#define WEIGHTS 2
-#define SAMPLES 5
+#define W1 0
+#define W2 1
+#define BIAS 4
+#define SAMPLES 50
 
 float sigmoid(float x);
 
@@ -15,8 +17,8 @@ float feedforward(int *neuron, int *input, int bias);
 
 struct neuron
 {
-    int weights[WEIGHTS];
+    int weights[2];
     int bias;
 };
 
-#endif
+#endif // NEURON_H
