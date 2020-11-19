@@ -14,8 +14,8 @@ int main()
     float result[SAMPLES];
 
     // TEST IF FILE IS DATA FILE IS FOUND //
-    inp1 = fopen("../data/ref_input.dat", "r");
-    inp2 = fopen("../data/ref_result.dat", "r");
+    inp1 = fopen("data/ref_input.dat", "r");
+    inp2 = fopen("data/ref_result.dat", "r");
     if (inp1 == NULL || inp2 == NULL)
     {
         printf("File Not Found!\n");

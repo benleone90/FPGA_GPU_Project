@@ -148,4 +148,20 @@ See [neuron.c](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_3
 
 ## Sprint 4
 
+### Goal
+
+Implement the [`neuron.c`](###) code with a testbench into Vivado HLS to then be used on AWS F1. We aimed to compare these results to the SCC results.
+
+![Vivado HLS Project with neuron.c](Sprint_4/images/screen1.png)
+
+**Figure 1: Vivado HLS Project with neuron.c**
+
+![Vivado HLS Project with neuron.c](Sprint_4/images/screen2.png)
+
+**Figure 2: Vivado HLS Synthesis with Warnings Regarding the Build**
+
 ## Sprint 5
+
+### Goal
+
+Finalize design for neural network and build the HLS design to be used on AWS and SCC.
