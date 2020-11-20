@@ -17,7 +17,7 @@ float feedforward(float *neuron, float *input, int bias);
 
 struct neuron
 {
-    int weights[2];
+    float weights[2];
     int bias;
 };
 
