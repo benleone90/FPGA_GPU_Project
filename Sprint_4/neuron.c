@@ -15,7 +15,7 @@ float sigmoid(float x)
     return return_value;
 }
 
-float dot_product(int *u, int *v)
+float dot_product(float *u, float *v)
 {
     float sum = 0;
     int n = sizeof(u) / sizeof(u[0]);
@@ -26,7 +26,7 @@ float dot_product(int *u, int *v)
     return sum;
 }
 
-float feedforward(int *neuron, int *input, int bias)
+float feedforward(float *neuron, float *input, int bias)
 {
     float total = dot_product(neuron, input) + bias;
     return sigmoid(total);

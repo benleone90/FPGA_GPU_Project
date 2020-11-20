@@ -6,14 +6,14 @@ Header file for neuron for a neural network
 
 #define W1 0
 #define W2 1
-#define BIAS 4
+#define BIAS 0
 #define SAMPLES 50
 
 float sigmoid(float x);
 
-float dot_product(int *u, int *v);
+float dot_product(float *u, float *v);
 
-float feedforward(int *neuron, int *input, int bias);
+float feedforward(float *neuron, float *input, int bias);
 
 struct neuron
 {
