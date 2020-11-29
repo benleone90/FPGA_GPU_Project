@@ -150,6 +150,8 @@ See [neuron.c](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_3
 
 ### Goal
 
+Create a neural network in C from the neuron code that was presented in Sprint 3. The code can be seen in [`network.c`](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_4/network.c).
+
 Implement the [`neuron.c`](https://github.com/benleone90/FPGA_GPU_Project/blob/main/Sprint_4/neuron.c) code with a testbench into Vivado HLS to then be used on AWS F1. We aimed to compare these results to the SCC results.
 
 ![Vivado HLS Project with neuron.c](Sprint_4/images/screen1.png)
