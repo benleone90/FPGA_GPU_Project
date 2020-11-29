@@ -160,6 +160,18 @@ Implement the [`neuron.c`](https://github.com/benleone90/FPGA_GPU_Project/blob/m
 
 **Figure 2: Vivado HLS Synthesis with Warnings Regarding the Build**
 
+![SCC Benchmarks](Sprint_4/images/screen3.png)
+
+**Figure 3: Core Benchmarks in the SCC**
+
+![Python training and testing SCC](Sprint_4/images/screen4.png)
+
+**Figure 4: Python training and testing of neuron in BU SCC**
+
+![Python training and testing SCC](Sprint_4/images/screen5.png)
+
+**Figure 5: More results of training and testing of neuron in BU SCC**
+
 ## Sprint 5
 
 ### Goal
