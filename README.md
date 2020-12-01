@@ -179,3 +179,5 @@ Implement the [`neuron.c`](https://github.com/benleone90/FPGA_GPU_Project/blob/m
 ### Goal
 
 Finalize design for neural network and build the HLS design to be used on AWS and SCC.
+
+### Results
