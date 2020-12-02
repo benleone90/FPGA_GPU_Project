@@ -5,18 +5,13 @@
 #include "neuron.h"
 int main()
 {
-    struct neuron n1 = {{W1, W2}, BIAS};
-    struct neuron n2 = {{W1, W2}, BIAS};
-    struct neuron o1 = {{W1, W2}, BIAS};
+    float w1, w2, w3, w4, w5, w6;
+    int b1, b2, b3;
 
-    float test_inp[2] = {2, 3};
+    int learn_rate = 0.1;
+    int epochs = 1000;
 
-    float out1 = feedforward(n1.weights, test_inp, n1.bias);
-    float out2 = feedforward(n2.weights, test_inp, n2.bias);
-
-    float new_inp[2] = {out1, out2};
-
-    float out3 = feedforward(o1.weights, new_inp, o1.bias);
-
-    printf("%.20f\n", out3);
+    struct neuron h1 = {{w1, w2}, b1};
+    struct neuron h2 = {{w3, w4}, b2};
+    struct neuron o1 = {{w5, w6}, b3};
 }

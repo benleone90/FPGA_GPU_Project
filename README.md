@@ -181,3 +181,19 @@ Implement the [`neuron.c`](https://github.com/benleone90/FPGA_GPU_Project/blob/m
 Finalize design for neural network and build the HLS design to be used on AWS and SCC.
 
 ### Results
+
+![Neural Network Goal](Sprint_5/images/neural_net.png)
+
+**Figure 1: General layout of the neural network**
+
+![Vitis Hello World Example](Sprint_5/images/screen1.png)
+
+**Figure 2: Vitis Hello World Test**
+
+![Vitis Hello World Example](Sprint_5/images/screen2.png)
+
+**Figure 3: Vitis Hello World Tets**
+
+![Vivado HLS Errors](Sprint_5/images/screen3.png)
+
+**Figure 4: Errors Generated During Synthesis**
