@@ -197,3 +197,9 @@ Finalize design for neural network and build the HLS design to be used on AWS an
 ![Vivado HLS Errors](Sprint_5/images/screen3.png)
 
 **Figure 4: Errors Generated During Synthesis**
+
+## Takeaways and Future Work
+
+* Work more with AWS and Vivado HLS to understand how the implementation and setup could be better optimized.
+* Research other solutions on how to compare the execution of machine learning algorithms on FPGAs and GPUs.
+* Learn from others who have done similar comparisions in this field.
